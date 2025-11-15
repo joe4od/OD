@@ -1,0 +1,16 @@
+version: '3.8'
+
+services:
+  dev:
+    build:
+      context: ./docker
+      dockerfile: Dockerfile
+    image: od
+    volumes:
+      - ./:/workspace:cached
+    working_dir: /workspace
+    stdin_open: true
+    tty: true
+    environment:
+      - PYTHONUNBUFFERED=1
+    # Use: docker compose run --rm dev  (or docker-compose run --rm dev)

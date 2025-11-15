@@ -1,0 +1,335 @@
+{
+  "ignore_warnings" : false,
+  "device_type" : "mobile",
+  "_cft" : [
+    33488767
+  ],
+  "disabled_checkout_info" : {
+    "auto_popup" : false,
+    "error_infos" : [
+
+    ],
+    "description" : ""
+  },
+  "iof_info" : {
+    "iof_msg" : "In International purchases, IOF will be applied as a mandatory collection required by the Federal Government",
+    "learn_more_url" : ""
+  },
+  "buyer_service_fee_info" : {
+    "learn_more_url" : ""
+  },
+  "order_update_info" : {
+
+  },
+  "client_event_info" : {
+    "is_platform_voucher_changed" : false,
+    "is_fsv_changed" : false
+  },
+  "captcha_signature" : "",
+  "shoporders" : [
+    {
+      "shipping_fee_discount" : 0,
+      "tax_payable" : 0,
+      "shipping_id" : 1,
+      "order_total_without_shipping" : 2569900000,
+      "shop" : {
+        "shopid" : 116309859,
+        "seller_user_id" : 116311684,
+        "shop_tag" : 1,
+        "cb_option" : false,
+        "is_official_shop" : true,
+        "shop_name" : "蝦皮直送 3C家電",
+        "remark_type" : 0,
+        "support_ereceipt" : true,
+        "shop_ereceipt_type" : 0
+      },
+      "iof_amount" : 0,
+      "order_total" : 2569900000,
+      "ext_ad_info_mappings" : [
+
+      ],
+      "buyer_remark" : null,
+      "items" : [
+        {
+          "model_name" : "午夜色",
+          "itemid" : 20742276463,
+          "add_on_deal_id" : 0,
+          "image" : "5916dec8a20441b61920153b30379a6e",
+          "modelid" : 98218761898,
+          "shopid" : 116309859,
+          "offerid" : 0,
+          "is_pre_order" : false,
+          "name" : "Apple iPhone 14 128G 6.1吋 黑\/白\/紅\/藍\/紫\/黃 廠商直送",
+          "non_shippable_err" : "",
+          "none_shippable_reason" : "",
+          "is_streaming_price" : false,
+          "quantity" : 1,
+          "insurances" : null,
+          "is_spl_zero_interest" : false,
+          "none_shippable_full_reason" : "",
+          "channel_exclusive_info" : {
+            "is_short_video" : false,
+            "source_id" : 0,
+            "token" : "",
+            "is_live_stream" : false
+          },
+          "is_prescription" : false,
+          "shippable" : true,
+          "checkout" : true,
+          "supports_free_returns" : false,
+          "item_group_id" : null,
+          "price" : 2579900000,
+          "is_add_on_sub_item" : false,
+          "categories" : [
+            {
+              "catids" : [
+                100013,
+                100073
+              ]
+            }
+          ]
+        }
+      ],
+      "shipping_fee" : 0,
+      "tax_info" : {
+        "custom_tax_msg" : "",
+        "remove_custom_tax_hint" : true,
+        "use_new_custom_tax_msg" : true,
+        "custom_tax_msg_short" : "",
+        "help_center_url" : ""
+      },
+      "receipt_data" : {
+        "email" : "ss909013@gmail.com",
+        "address_data" : {
+          "address" : "忠孝东路4段560号2F",
+          "phone" : "886917076960",
+          "country" : "TW",
+          "city" : "信義區",
+          "zipcode" : "110",
+          "name" : "歐弟",
+          "state" : "臺北市"
+        },
+        "user_carrier_info" : {
+          "user_id" : 131831821,
+          "carrier_type" : 1,
+          "barcode" : "\/CBXDKAE"
+        },
+        "receipt_type" : 1,
+        "address" : "忠孝东路4段560号2F"
+      }
+    }
+  ],
+  "buyer_info" : {
+    "checkout_email" : "",
+    "kyc_info" : null
+  },
+  "can_checkout" : true,
+  "fsv_selection_infos" : [
+
+  ],
+  "dropshipping_info" : null,
+  "shipping_orders" : [
+    {
+      "shipping_fee_discount" : 0,
+      "shipping_id" : 1,
+      "tax_payable" : 0,
+      "shipping_discount_type" : 0,
+      "order_total_without_shipping" : 2569900000,
+      "selected_logistic_channelid" : 39010,
+      "is_fsv_applied" : false,
+      "prescription_info" : {
+        "images" : null,
+        "max_allowed_images" : 0,
+        "required" : false
+      },
+      "shoporder_indexes" : [
+        0
+      ],
+      "shipping_group_description" : "",
+      "shipping_group_icon" : "",
+      "order_total" : 2569900000,
+      "selected_logistic_channelid_with_warning" : null,
+      "iof_amount" : 0,
+      "buyer_address_data" : {
+        "tax_address" : "歐弟_TW_臺北市_信義區_忠孝东路4段560号2F_110__",
+        "address_type" : 0,
+        "addressid" : 94690559
+      },
+      "shipping_fee" : 0,
+      "fulfillment_info" : {
+        "order_fulfillment_type" : 2,
+        "warehouse_address_id" : 0,
+        "is_from_overseas" : false,
+        "managed_by_sbs" : false,
+        "fulfillment_source" : "",
+        "fulfillment_flag" : 64
+      },
+      "sync" : true
+    }
+  ],
+  "captcha_version" : 1,
+  "checkout_price_data" : {
+    "group_buy_discount" : 0,
+    "bundle_deals_discount" : null,
+    "merchandise_subtotal" : 2579900000,
+    "tax_payable" : 0,
+    "vat_subtotal" : 0,
+    "promocode_applied" : 189900000,
+    "shipping_discount_subtotal" : 0,
+    "insurance_subtotal" : 0,
+    "shipping_subtotal" : 0,
+    "iof_amount" : 0,
+    "buyer_service_fee" : 0,
+    "total_payable" : 2390000000,
+    "insurance_discount_subtotal" : 0,
+    "shopee_coins_redeemed" : null,
+    "insurance_before_discount_subtotal" : 0,
+    "buyer_txn_fee" : 0,
+    "tax_exemption" : 0,
+    "custom_tax_subtotal" : 0,
+    "price_adjustment" : null,
+    "shipping_subtotal_before_discount" : 0,
+    "credit_card_promotion" : null
+  },
+  "selected_payment_channel_data" : {
+    "option_info" : "",
+    "channel_id" : 3004000,
+    "text_info" : {
+
+    },
+    "channel_item_option_info" : {
+      "channel_item_id" : 22472872,
+      "credit_card_data" : {
+        "card_number" : "428430xxxxxx1137",
+        "bank_name" : "國泰世華銀行",
+        "expiry_date" : "09-2027",
+        "bank_id" : 1049
+      }
+    },
+    "version" : 2
+  },
+  "cart_type" : 0,
+  "timestamp" : 1687672483,
+  "client_id" : 0,
+  "buyer_txn_fee_info" : {
+    "title" : "Handling fee",
+    "learn_more_url" : "",
+    "description" : "Handling fee is $0 for this transaction"
+  },
+  "promotion_data" : {
+    "coin_info" : {
+      "coin_used" : 0,
+      "coin_earn_by_voucher" : 0,
+      "coin_offset" : 0,
+      "coin_earn" : 0
+    },
+    "shop_voucher_entrances" : [
+      {
+        "shopid" : 116309859,
+        "status" : true
+      }
+    ],
+    "can_use_coins" : false,
+    "voucher_code" : "SHOPP604",
+    "card_promotion_enabled" : false,
+    "use_coins" : false,
+    "highlighted_platform_voucher_type" : -1,
+    "voucher_info" : {
+      "coin_earned" : 0,
+      "used_price" : 10000000,
+      "discount_value" : 10000000,
+      "reward_type" : 0,
+      "voucher_code" : "SHOPP604",
+      "coin_percentage" : 0,
+      "discount_percentage" : 0,
+      "promotionid" : 651688357904384
+    },
+    "promotion_msg" : "",
+    "price_discount" : 189900000,
+    "shop_vouchers" : [
+      {
+        "shopid" : 116309859,
+        "reward_type" : 0,
+        "applied_voucher_code" : "SHOPP604",
+        "invalid_message_code" : 0,
+        "voucher_code" : "SHOPP604",
+        "promotionid" : 651688357904384,
+        "shipping_order_distributions" : [
+          {
+            "coin_earned" : 0,
+            "shipping_id" : 1,
+            "discount_value" : 10000000
+          }
+        ]
+      }
+    ],
+    "invalid_message" : "",
+    "platform_vouchers" : [
+      {
+        "coin_earned" : 0,
+        "reward_type" : 0,
+        "discount_value" : 179900000,
+        "applied_voucher_code" : "CQLQNLWGWP",
+        "invalid_message_code" : 0,
+        "voucher_code" : "CQLQNLWGWP",
+        "promotionid" : 632933837062144,
+        "required_be_channel_ids" : [
+
+        ],
+        "required_spm_channels" : [
+
+        ]
+      }
+    ],
+    "free_shipping_voucher_info" : {
+      "required_spm_channels" : [
+
+      ],
+      "free_shipping_voucher_id" : 0,
+      "banner_info" : {
+        "msg" : "",
+        "learn_more_msg" : ""
+      },
+      "required_be_channel_ids" : [
+
+      ],
+      "free_shipping_voucher_code" : "",
+      "disabled_reason" : null
+    },
+    "applied_voucher_code" : "SHOPP604",
+    "card_promotion_id" : null
+  },
+  "headers" : {
+    "map" : {
+      "server" : "SGW",
+      "set-cookie" : "SPC_R_T_IV=cTZlbjNnVWNYSktTbUZ3aw==; Path=\/; Domain=.shopee.tw; Max-Age=630720000; Secure, SPC_T_ID=Mx0ycdmTqODAGTMrTrZSBb1NgkmGRWKu\/t3eVjKIQi8tD2BM1AKUPXPEF+sQS5JWlRwcyvkWe9sOWvP7GO5JPgKE1g557Fwp6K6\/+1vwo+Mn0TyziQKxdXflN1c\/PlJPEjeP0kaK8wgOFJtdYPVS6t\/c58+b2qQ+oedE9nF5HT0=; Path=\/; Domain=.shopee.tw; Max-Age=630720000; HttpOnly; Secure, SPC_T_IV=cTZlbjNnVWNYSktTbUZ3aw==; Path=\/; Domain=.shopee.tw; Max-Age=630720000; HttpOnly; Secure, SPC_SI=KWCRZAAAAABzZXRqZjhCbnIT5wAAAAAAcU5LVVk3Mlo=; Path=\/; Domain=.shopee.tw; Max-Age=86400; HttpOnly; Secure, SPC_ST=.ZGJFbE1lTTZlNFNZVEd4c+yOakSPN8SAMJCBBhRBRVMn15OZHkVayc3qD86j462uXZ4zUv8V+TOWg5zH4g3VzgRwTRo4gDk01CtBqY88WDhShyNXzC+h+sGPdcIloHI6c\/SSukofg2QsEJfXXcdh5cc0H8jyaKLgAfM0+zb3swpzNIlDztVlQICTb5xo\/oAwHg5P+oYGNIvS2AWVjlPcjw==; Path=\/; Domain=.shopee.tw; Max-Age=630720000; HttpOnly; Secure, SPC_U=131831821; Path=\/; Domain=.shopee.tw; Max-Age=630720000; Secure, SPC_EC=YTFjM29IUlFJSjY3aHdyNE\/gnQ49BM9zolECYs1DE\/Ib3NiuZQ6eAl9gGoJAbOOSd7I\/k+39+q8Q2kr8LGucL4pArVh7R6B8Y00Byi9JpVHmXxcliQT8vLDRpeztbF3CjX+0PWo4yEOy1H5QjnFgnCXwWYjZ2KupSxgHso+8ZiM=; Path=\/; Domain=.shopee.tw; Max-Age=630720000; HttpOnly; Secure, SPC_R_T_ID=Mx0ycdmTqODAGTMrTrZSBb1NgkmGRWKu\/t3eVjKIQi8tD2BM1AKUPXPEF+sQS5JWlRwcyvkWe9sOWvP7GO5JPgKE1g557Fwp6K6\/+1vwo+Mn0TyziQKxdXflN1c\/PlJPEjeP0kaK8wgOFJtdYPVS6t\/c58+b2qQ+oedE9nF5HT0=; Path=\/; Domain=.shopee.tw; Max-Age=630720000; Secure",
+      "content-type" : "application\/json",
+      "vary" : "Accept-Encoding",
+      "transfer-encoding" : "Identity",
+      "date" : "Sun, 25 Jun 2023 05:55:07 GMT",
+      "content-encoding" : "gzip",
+      "x-request-id" : "1f8a1b84feede04487f029ab45654800:000000efd1c5c926:0000000000000000",
+      "connection" : "keep-alive"
+    }
+  },
+  "device_info" : {
+    "buyer_payment_info" : {
+      "is_jko_app_installed" : false
+    },
+    "device_fingerprint" : "072367F5392A444CA79E34C129CA4947",
+    "gps_location_info" : {
+      "status" : 0,
+      "longitude" : null,
+      "latitude" : null
+    },
+    "device_id" : "072367F5392A444CA79E34C129CA4947",
+    "tongdun_blackbox" : "eyJlcnJvck1zZyI6IkVycm9yIERvbWFpbj1Qcm9maWxlIFRpbWVvdXQgQ29kZT0tMiBcIihudWxsKVwiIiwib3MiOiJpT1MiLCJzZXFJZCI6IjE2ODc2NzIxMTk1MDM5MDA4NDYiLCJibGFja0JveCI6IkpkRnZnaUN6V08yVFwvdm1ZOFZUSzhuN2pFcHYwUG5ubllMNWdtcVpZU2J2UXExcVhKUTJqWVVvczRtNHd4NlJERThYV3FcL1RGRVMyeVhpUkdueldyQmNOcWhISHdXVlUzSDg4bE5yZ1o3WEhVa2VLWmlDbjBhczI3d3FRUGF3ZWNQMHhZd0k4OVZQZ2t3N3lNZWQwcm8xQ3AwSVl4SzlUbzJ3NHNcL0JMVmpWaERhbnlIOE05Z3VQWVNqdTJ1dUt2ME9KQ3JiRSs1aFJhbjV5eFYyczJTSW5CSXZHV3VWaW96MGJxVTUybUpNaEpFRldmM1BUSVdaZ2dFakJaWVhsQ1lcLzI2eHo1N2taRlwvRGp0VHRKUGJ2M1prTnVyVmFRdGQ3SDZxTXR3WngrUU16SElDNDRjNDNSdDN0aVNZRXhQdTlIbFBSQlJPSitYTlA2K2lXeUJjblRoR2JnWFhsNzV6dTNpZTN0T1ZvTFB4XC9SXC9ZdFwvTGh2UEVPUW9ERVA3cWc1UE0yekxnYklyVVdNd0JueE5JdXR2ajl2MlBpQ2VQVzFhdGRESG5tNmYrY0ZUZFJlRmV1NllmUFZCU1NMVkV1RnFOaWJGbjh2Q0VRUUx0cUlNNWx1bmIrbUU0R0tiY3V6bEZxczNmeGZCZk9DYUY2RHc5SkhBellaUm8yRUtKSTZHV2VVRWRzWTQ3RE5KN2pzZGh0SENYeUNzdHQ4Rm92M3Fqak80eGQ4a2tGNXRsTjhKMm1DZUtIWURaajlMbTNjSzlzUUFpUkhpczVmMEUxeTByb3lIemxjRWQrZlF0VlVKSERUV2xISmtzXC8wU0c3azBHV21sdDdhMWJMYXorczhnOGdiZEtzRjZQS0pvN2pmSjFWcUorK2tTa0pQVGdJN3FrNHB0cVJJNHRSZ0dXXC9kYnVNSmJWcU9TUG9TcXdkTWJicUloY2diU2I1UklsdjFDTDZBUzVvMXpTdUdSV1U0dWd0dUpBdkNHSjM0UGpuYUNtS2lnZm51MUpzNW95SlVyNzB2Z2JFVjByK0V5czVZVUlHSFI4TXV0elJyNHljdWhPMVZDVG9OSmlGUHRcL3E2NnRhWDhuQk1tdFJzN295SlBFbVNVb0t3QXJZSHJMakcrZFplaEdIa2MxXC91XC9QeTRHeFRzdjRGU0xTdzFNK21UdVUzdlFnYUlKUGtka1g5K3JhV3BmU0syRGR0XC9rYXV2T2Z4MzFWTUFhRVoxVmFoZE5wVjVrWUs2Rm4rdTg4VXdERlMzQk9DajVHVjNyU1BDcmoxaVFucTgzb1VreXNVZlh5NWZEZWJoMVJadE9vSUQ5ZFBNTHhpK3pKQjBRNDdyNHduMTQzXC9sOWl6cHNMRUhHOVk1REQ0QVduRkRMbU9TbjljQjBXd2tFVTViRElXd2RxclBydXpHOE1Kb0hXaWwwYjI0dTVjbE1GRWVNXC9rRjJmZnhQOFR6K2RIVklCQkRlTFpEejJ1eUx5ZHpzMDFmTnNNdHlEQ21iVTBOMlpDVFFoeHRYSnRpOVlmNHE5ZE0yU3hGVlo3RldHQndPV0dkYm9DMUFpSXlyU1VqcDFWaG9ZM3lQTnVkQUlSQlgzZ1VRdmJDZkxHdVNwK0lhZ0txYng4eHV0UVpGM3p1OEE2TjYwdU9oTVhhQ2RlZ2xLYm50SG1EQTIxYkJWQldCZk9VUzF5a3VoUlE0clRPNTN1UlhxTHhFUjBxTXQ3cHVKakc3cW9rQVl3TGRFQXRBcEZXY1wvYkVZXC9GWWdiVkVqbXkycVh6YjlVcW5sXC83Z0syVGREcG9EdHdxTDdWbGpNNDkzQWtuanRNN0pqVkRCNnd1S256U2MwWE9lbE1WZTZXZ0dweTFNSDVzcmt0cW1rMlVKaE94eXMwS2s2a3FZWkNkdGc3ODkydm15WEVlOTg1RjJQMDBGZmxkUkViRm5SbGVWejJhVE1FVzBJWW9kVE0zZFc1UEZkQzU0dmhnYUNTZkdZWXRJNGdOdmFpZG5lV2NOa3c1UmNXekxGblZmRTFqMnBUREZ4TFFcL1wvYWdSdWFoeEoxOStVOGNSdGRVV3N6WjltMHU1cnFvS1pmNFwvbFwvYXdUVXJEYWJGMUNVS2l0ZzdpeFFWWmlWWFwvR29jVTBrWmh3NUg0YTdPXC95czQ3dHJIZjdxWlB5eVwvXC9rZ0RRSEhZUlwvKzhLWlwvRGNvOWI5XC8rR1wvZVp0UWJyTDF3RWJZTVwvTUdyanBHZmpDbGU1Q05GNVBOb0lHYjdDWWNJUzRmSU1TNlVtUUw3WXlMdHJiYmxBeVdXS2NZQ0U4emRscG1LbHpXbkkybnNcL3U2R1IwazVKaG9zK2U1Smd0UWViVjM3emNRUlo2ZXI3V01KaG5tS0t2RG9LNEk1QlBqVTJ3MnBrd0ZtXC9ySWNCMnRNWTE4YWtcL1FvWEZka0R1dTk5ckgxaFJXOFU3QXRrVEpiOVwvbzZVcEZwQXg5TTFyMVM1aVFLZnZiWGkxVHBWNGhZMXJHTHRKMlYrd3VETzhOSFwvdTE1SFYwYWlSZ2lYRDI3YThtOENsd09XZGFjOWZUd3dlY2xGOUd4SjJpdE15T0pxaUNKYlVNbWNIRTgyaG9pWTdjeFNHQ0RrSndqN2hvZFVoM0JPbjZtNXJEdUtYU1BEeUxcL24yYk81ZFNtdnQ5NXFxcWdSU29pbDJoMG11UzVCMk1PWURoZ1BGYlBBM2JTcXBKVFEzWTZhdDVoOG1qRVFYb1RScnVpOW5ESTF6T0dTc0Jva0pDRUhQc1VHPT0iLCJwcm9maWxlVGltZSI6NjAwMiwidmVyc2lvbiI6IjMuMi43In0=",
+    "device_sz_fingerprint" : "hNkx4nQwP+zIocOCTPWJeQ==|CPQ47\/CL73vBB+F4JNEAK5DDxmTVRnL3LJEoSl\/XEMS+7FFdVDkWJxOoEueznOsq2y\/7jaK5AE5bXRDGf0p+rh1phMGQt3cKnX\/2OjSVnCCvO2J0T\/Ood7hDNfGxTYgQqTasRHGczA1KJg==|fhz0A92ti0tZKsU4|07|2"
+  },
+  "ignored_errors" : [
+    0
+  ],
+  "add_to_cart_info" : {
+    "is_added_to_cart" : false
+  }
+}

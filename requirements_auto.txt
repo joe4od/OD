@@ -1,0 +1,5 @@
+PyJWT
+pandas
+pycurl
+requests
+schedule

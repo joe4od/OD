@@ -1,0 +1,292 @@
+{
+  "device_type" : "mobile",
+  "_cft" : [
+    16711551
+  ],
+  "disabled_checkout_info" : {
+    "auto_popup" : false,
+    "error_infos" : [
+
+    ],
+    "description" : ""
+  },
+  "iof_info" : {
+    "iof_msg" : "In International purchases, IOF will be applied as a mandatory collection required by the Federal Government",
+    "learn_more_url" : ""
+  },
+  "buyer_service_fee_info" : {
+    "learn_more_url" : ""
+  },
+  "order_update_info" : {
+
+  },
+  "client_event_info" : {
+    "is_platform_voucher_changed" : false,
+    "is_fsv_changed" : false
+  },
+  "captcha_signature" : "",
+  "shoporders" : [
+    {
+      "shipping_fee_discount" : 0,
+      "tax_payable" : 0,
+      "shipping_id" : 1,
+      "order_total_without_shipping" : 25400000,
+      "shop" : {
+        "shopid" : 28944793,
+        "seller_user_id" : 28946177,
+        "shop_tag" : 1,
+        "cb_option" : false,
+        "is_official_shop" : true,
+        "shop_name" : "屈臣氏Watsons",
+        "remark_type" : 0,
+        "support_ereceipt" : true,
+        "shop_ereceipt_type" : 0
+      },
+      "iof_amount" : 0,
+      "order_total" : 31400000,
+      "ext_ad_info_mappings" : [
+
+      ],
+      "buyer_remark" : null,
+      "items" : [
+        {
+          "model_name" : "",
+          "itemid" : 6069640120,
+          "add_on_deal_id" : 0,
+          "image" : "0627d20afc933254e5d09fd9fa1708b1",
+          "modelid" : 52476048237,
+          "shopid" : 28944793,
+          "offerid" : 0,
+          "is_pre_order" : true,
+          "name" : "滿意寶寶超柔感純水濕巾一般型100片3包",
+          "non_shippable_err" : "",
+          "none_shippable_reason" : "",
+          "is_streaming_price" : false,
+          "quantity" : 2,
+          "insurances" : null,
+          "is_spl_zero_interest" : false,
+          "none_shippable_full_reason" : "",
+          "channel_exclusive_info" : {
+            "is_short_video" : false,
+            "source_id" : 0,
+            "token" : "",
+            "is_live_stream" : false
+          },
+          "is_prescription" : false,
+          "shippable" : true,
+          "checkout" : true,
+          "supports_free_returns" : false,
+          "item_group_id" : null,
+          "price" : 12700000,
+          "is_add_on_sub_item" : false,
+          "categories" : [
+            {
+              "catids" : [
+                100632,
+                100678,
+                100975
+              ]
+            }
+          ]
+        }
+      ],
+      "shipping_fee" : 6000000,
+      "tax_info" : {
+        "custom_tax_msg" : "",
+        "remove_custom_tax_hint" : true,
+        "use_new_custom_tax_msg" : true,
+        "custom_tax_msg_short" : "",
+        "help_center_url" : ""
+      },
+      "receipt_data" : {
+        "email" : "badfrog1118@gmail.com",
+        "address_data" : {
+
+        },
+        "user_carrier_info" : {
+          "user_id" : 304497782,
+          "carrier_type" : 1,
+          "barcode" : "\/CBXDKAE"
+        },
+        "receipt_type" : 1,
+        "address" : ""
+      }
+    }
+  ],
+  "buyer_info" : {
+    "checkout_email" : "",
+    "kyc_info" : null
+  },
+  "can_checkout" : true,
+  "fsv_selection_infos" : [
+
+  ],
+  "dropshipping_info" : null,
+  "captcha_version" : 1,
+  "shipping_orders" : [
+    {
+      "shipping_fee_discount" : 0,
+      "shipping_id" : 1,
+      "tax_payable" : 0,
+      "shipping_discount_type" : 0,
+      "order_total_without_shipping" : 25400000,
+      "selected_logistic_channelid" : 30005,
+      "is_fsv_applied" : false,
+      "prescription_info" : {
+        "images" : null,
+        "max_allowed_images" : 0,
+        "required" : false
+      },
+      "shoporder_indexes" : [
+        0
+      ],
+      "shipping_group_description" : "",
+      "shipping_group_icon" : "",
+      "order_total" : 31400000,
+      "selected_logistic_channelid_with_warning" : null,
+      "iof_amount" : 0,
+      "buyer_address_data" : {
+        "tax_address" : "林晏妤____新北市板橋區中正路274號276號",
+        "address_type" : 1,
+        "addressid" : 107979
+      },
+      "shipping_fee" : 6000000,
+      "fulfillment_info" : {
+        "order_fulfillment_type" : 2,
+        "warehouse_address_id" : 0,
+        "is_from_overseas" : false,
+        "managed_by_sbs" : false,
+        "fulfillment_source" : "",
+        "fulfillment_flag" : 64
+      },
+      "sync" : true
+    }
+  ],
+  "checkout_price_data" : {
+    "group_buy_discount" : 0,
+    "bundle_deals_discount" : null,
+    "merchandise_subtotal" : 25400000,
+    "tax_payable" : 0,
+    "vat_subtotal" : 0,
+    "promocode_applied" : null,
+    "shipping_discount_subtotal" : 0,
+    "insurance_subtotal" : 0,
+    "shipping_subtotal" : 6000000,
+    "iof_amount" : 0,
+    "buyer_service_fee" : 0,
+    "total_payable" : 31400000,
+    "insurance_discount_subtotal" : 0,
+    "shopee_coins_redeemed" : null,
+    "insurance_before_discount_subtotal" : 0,
+    "buyer_txn_fee" : 0,
+    "tax_exemption" : 0,
+    "custom_tax_subtotal" : 0,
+    "price_adjustment" : null,
+    "shipping_subtotal_before_discount" : 6000000,
+    "credit_card_promotion" : null
+  },
+  "selected_payment_channel_data" : {
+    "option_info" : "",
+    "channel_id" : 3004000,
+    "text_info" : {
+
+    },
+    "channel_item_option_info" : {
+      "channel_item_id" : 20715579,
+      "credit_card_data" : {
+        "card_number" : "428430xxxxxx5767",
+        "bank_name" : "國泰世華銀行",
+        "expiry_date" : "08-2026",
+        "bank_id" : 1049
+      }
+    },
+    "version" : 2
+  },
+  "cart_type" : 0,
+  "timestamp" : 1683946087,
+  "client_id" : 0,
+  "buyer_txn_fee_info" : {
+    "title" : "Handling fee",
+    "learn_more_url" : "",
+    "description" : "Handling fee is $0 for this transaction"
+  },
+  "promotion_data" : {
+    "coin_info" : {
+      "coin_used" : 63,
+      "coin_earn_by_voucher" : 0,
+      "coin_offset" : 6300000,
+      "coin_earn" : 0
+    },
+    "can_use_coins" : true,
+    "voucher_code" : null,
+    "card_promotion_enabled" : false,
+    "use_coins" : false,
+    "highlighted_platform_voucher_type" : -1,
+    "voucher_info" : {
+      "coin_earned" : 0,
+      "used_price" : 0,
+      "discount_value" : 0,
+      "reward_type" : 0,
+      "voucher_code" : null,
+      "coin_percentage" : 0,
+      "discount_percentage" : 0,
+      "promotionid" : 0
+    },
+    "promotion_msg" : "",
+    "shop_voucher_entrances" : [
+      {
+        "shopid" : 28944793,
+        "status" : true
+      }
+    ],
+    "price_discount" : 0,
+    "invalid_message" : "",
+    "platform_vouchers" : [
+
+    ],
+    "free_shipping_voucher_info" : {
+      "required_spm_channels" : null,
+      "free_shipping_voucher_id" : 0,
+      "banner_info" : {
+        "msg" : "",
+        "learn_more_msg" : ""
+      },
+      "required_be_channel_ids" : null,
+      "free_shipping_voucher_code" : "",
+      "disabled_reason" : null
+    },
+    "applied_voucher_code" : null,
+    "card_promotion_id" : null
+  },
+  "headers" : {
+    "map" : {
+      "server" : "SGW",
+      "set-cookie" : "SPC_T_IV=VFpJOGhJTmVteWlYTE9IVA==; Path=\/; Domain=.shopee.tw; Max-Age=630720000; HttpOnly; Secure, SPC_SI=7QZaZAAAAABydHhrZW1leOUeoAAAAAAAajZ4YlhuU1E=; Path=\/; Domain=.shopee.tw; Max-Age=86400; HttpOnly; Secure, SPC_ST=.d0VmTEVXbEJzTnBONEYxNTS3KtUG2DBzT9Mws+ynCVO7wJ0Z\/TT71DOXLOGgg2zGFRSKGw0W2Zio1owbSgKkncnZBmcwXNHbDxEudfXmXEYOFhVwwNZ8HGkmTjugvZTPrJrr+xO20YFisKekyDH6k0pDyeFbuVXUo3bu8Gmi7tZaueP7llgip86x2S+kb1sGBCarxdOa5zwd7S0wpv0LIw==; Path=\/; Domain=.shopee.tw; Max-Age=630720000; HttpOnly; Secure, SPC_U=304497782; Path=\/; Domain=.shopee.tw; Max-Age=630720000; Secure, SPC_EC=cXV2c2EzYzFhZndGY1hOSNV+RPLGAMcDRq2Rge\/QsXagvN06qd0I0z2YnUgg5OblsLDJaf\/dMet\/GjFJB5J0J+oRIUSqW0mOauBERptFrkKB7aM4TsmZWMiPWcM8CO6Pu9K3rFrhJ3CMsPgvj6sBZ9zXrpqxFTVqjCK0pwkiP9Q=; Path=\/; Domain=.shopee.tw; Max-Age=630720000; HttpOnly; Secure, SPC_R_T_ID=Ue1Nby3DB1fVdgvN81N6toWbd1kv8rBd2Lr\/4q\/MJlHvEo+M95S3RHLzY9cGOQ97xPKU\/0PNKP0ZyMD\/yZ1pmxswQ5fMmFiwqC54xNcDKlm4OpCUQuDt7pnawnAZdY+BLrD+kUlBwkxt4i9DEyxkp\/wKka\/LsWjCX9HifV4UNeY=; Path=\/; Domain=.shopee.tw; Max-Age=630720000; Secure, SPC_R_T_IV=VFpJOGhJTmVteWlYTE9IVA==; Path=\/; Domain=.shopee.tw; Max-Age=630720000; Secure, SPC_T_ID=Ue1Nby3DB1fVdgvN81N6toWbd1kv8rBd2Lr\/4q\/MJlHvEo+M95S3RHLzY9cGOQ97xPKU\/0PNKP0ZyMD\/yZ1pmxswQ5fMmFiwqC54xNcDKlm4OpCUQuDt7pnawnAZdY+BLrD+kUlBwkxt4i9DEyxkp\/wKka\/LsWjCX9HifV4UNeY=; Path=\/; Domain=.shopee.tw; Max-Age=630720000; HttpOnly; Secure",
+      "content-type" : "application\/json",
+      "vary" : "Accept-Encoding",
+      "transfer-encoding" : "Identity",
+      "date" : "Sat, 13 May 2023 02:48:07 GMT",
+      "content-encoding" : "gzip",
+      "x-request-id" : "1f8a1b84fb8a4058d4a7526cbc995200:000000b8fb5a3867:0000000000000000",
+      "connection" : "keep-alive"
+    }
+  },
+  "device_info" : {
+    "buyer_payment_info" : {
+      "is_jko_app_installed" : false
+    },
+    "device_fingerprint" : "21D37A9EF4434142B9BB03E73B0EC61C",
+    "gps_location_info" : {
+      "status" : 0,
+      "longitude" : null,
+      "latitude" : null
+    },
+    "device_id" : "21D37A9EF4434142B9BB03E73B0EC61C",
+    "tongdun_blackbox" : "eyJlcnJvck1zZyI6IkVycm9yIERvbWFpbj1Qcm9maWxlIFRpbWVvdXQgQ29kZT0tMiBcIihudWxsKVwiIiwib3MiOiJpT1MiLCJzZXFJZCI6IjE2ODM5NDUzMTkyMTI3NzY5MzciLCJibGFja0JveCI6IlZWcmR3cDBcL1J2azR0RzBlSE9uaVJhZEdKRk9tYzZQQkZvcFBzN1ptXC9WSmU1Z1Z6V21SS2JqSFlJRDduS1J1T2pzT3VQUGZvK1d3OXMzZ1h3bU9PTWVjdjF1TEQzUForamVyZ1wvaU9OTmJCWFhBS1FtRjR0ekxxQjJrYkNPdFwvcGYwXC9PblNYWit0VGxONFBnRGZaWXFQUUNHZER6ekErQW1IN1BEZGZFM2l4NGRzeDcweVI2dzVic3AzWHBkbWFCSFlqT2MrZTNoUzIyb05FWFpxaHMxUzRvRnMyV2J2RlMwQzFSZ2NDZFZuanNDNXRsVThOaklPeWE2RlZuaWhZc3dzdHZZNVJsMitcL0tlcnNlTEZTVmI5dFZqeXhldExpNVUxYWNBNjZnaHpjOFZcL2t3TG44NEJXXC9TdzNjN2M2TGhcL0dZaW5lc1Fqa0dZXC85cjVPUVhZN0pldkg5ejBhNmVnRzNHcElQbVZNRjJ4RWdLZEFlNGRXcVBSeHJiOTdVbnQrT0lXVThMWWtXYXhYbmRpOFJTT29ubmM0Nk9Cb2dnODZhTEpITmZTbDFOWGRCRVVzNzh2eDVNbWY1ZHdhNXdZVmNpQ3ZMMmYxSGE1TjdPNTFSNDNJZnQ0QjlQK2FFN1pRVEczVzQ4a2Z2N3BaVUdXOUh1TVNxZjdpZ1RBeHFSaU1wU2FmbHRTWE9oVFwvNHhnNUZrc2Q3OGR4bG5YZVRneWg5RzlBcFgrRWdVMGVlWXF5NUVmRmlTVXBUTTdIYVhjSGU0S3VCd3pKaGRBdGlGT3I5MGp5bHZaYXkyN0FrUEJxR3pMR2tRNjdleEhoS1wvY0dTSXdNYWtZR0lKOG03c2RDbjVxQ3QxSmJBVWYzNnd4c0dlZzRxdHB6aGp2MlZqYVRRWE1cL1d0QmJNM3pMNVd3b2FDelNQdzZVTUtPaVhQOXZqNTFHeXNpQzlSQmF0Qldsc3p1ZTRsMElsQjhGTHFxZ2lsOGE3Mlk1dHY2aEV0NDAxSmIrMVN6cmh6cWMybWhFbEFCQlVWNHVtUnREOVIyTTNWb1pRSTJMQzFxNUN2TEVncE1ackhLMEE2Q3llMW1ka28xbDBPbHp6c1BFWGJlblFadlo5NEpzOE1zdzFBcVF3M0x0REZJbVc2NWdJaEdLVmM0TnlVdW16ZG1QdEwxc2VXc0pEN0kzTmg1WkkrKyt5Y3JRR0cwWEVEek4wSnVHRWdwZkh4V3NYTUx5dWlYS3F2b2ZoNVwvaFNBSWRvMjVDNU40dGdmb2ozeHZDXC9Ud1V2XC9MSVBRMU5KNisxVnZuTlZDT09wTFdIcGp2TWpnb2w1ZFJEMHhtNm51VWFtQlpGUFpEK3dUS1dZOVhjVFRnWGhFUXM0U2haYmE3SktxMVZMYlk4YjI0ZVBBUDhTMDhJU084MW5kOGZYTkRtbmJMM0pEeGs0SlJqXC9JVCs3c1h5Uk03eWdzR0lKTEFoUTRrY3RtSDE5aEFHTEN0T3ROTXh4OGVRbGxzTktSRk5XQnhTTEF4ZUNIMTZJTzFmZlUrOWZCYmtHNXdRNTFmMTJpXC9ndzlGSjM0c2t2cEZLQlwvRjhLclpmR2tMVlRrTXI0SitIdWRLSzlFRDVJdEZJVGhUemFhZ1wvMDVsbW5CQlJETExKTVJJSFlOcE1yMGVuSlZ1OGhxSTdtUHFyOSs3TnJKZGgzZTNvUzZOT1Z1aTlQUDVhYUs0a2x5YVFKOVNrT084bHRcL1Mrd280WUdwRGFsTVwvKzNIKytsazhuRVNSYlwvRkdaWXNWaHhZK1wvZ2I2dzJYaGdNZlRHWmduUU95clBtbDdMbkorVnBibFFvTDBJWWNIT1B5S1RPd1JONmpPcjNWVmtkVVlmZWdkRnZaVzByRzNDTjlvc0hXMTFPaUttek4xTmp6M1BYOGk4MmZYXC9xNytFVjVjR1BqRXhWVHhsM0hKTkgzN1F4V2twYXp6SjhcL0l1V1NGSUZPaGh4UE80RlJLamJ2VjVMWFJ3UEJDY3FiU2VHK0hRTmJOM21tYjR4RTJlSWpJRXBYMmxrVjFtc1ZGb1lJSlluVVRhZCtkQnV4MU1wVE9DNDBvM3NONHF0ZlIraEFnZUlzY0ZUUVRvVWhYN1YyMGxDd2NUbDlrN0xhMG1UQ3dlTlduNElcL1RkbE03RmtmUkw5YmE1MjBWZW9vaEEwMFFjYXJiZEx6cEJEZFFYdlR1bzVlMnFueUJGTmlFUmpvWTBDT0tUcHE3V1pWUHF6bndFXC9KQmE2b1ZoSEhzSFpsdnB0Z1RCY1wvcXo3QUg0TGFOVmorckVlcGtvbEpNR2FlencrRGpieHpiaUNmZnEzeWkzWkVnMFpPWGNaeTNYRHpTOVRHcCtJU2tyeGRaWkdpNlJndTBFVEJDUUpFVTBKbGlvMlBVSTBXUHJKeUlrNUU1d0NMZkhVeWVKRUVsMlhtdmtMZEFpVHlvV3NkOGpCTHVCc0xcL1BGRjAxSVNhUEtPNCtJck5UcngyZ29iT0x1a0c4VEZ4cDFFU1hYVDJsR0Zsbm5CXC9MdTJ6a1dHaG95VTdodHNISUI2aFpuT0pxXC8xVnFVK0lSZG1Ib2ltMGJQc0ZFVGpSZENLYXl5Ynhub3B0NDI0SmRmU090RTZqOHZNYisrb3dVcG80T2lZMm1iNkcxT3dpSGVmQ0VGZzBcL1AybERTb2Q3SStrMHFEcmFpdHEwSFwvdVFSM0tBVklGMjZWRURRdGJhcEt0VmVHWkh6NmpUK3hseUNrR0REdm40TmNRU242dG5yRWpNdlYwNzJpeHRiSzJiaTRVeGprNW1KUUNnXC9lbndWT3ozbUhvUkVIUmNFUFEzZSs1dWtMclFVcFFibjZibFBwQ0xHNWZuTWtlRVVWODZhMkd6Ukl5XC9nSmxXTzNRRnoydVJudmpWTFdiVWFna3UyQ1I0YWduR3Npd29wa3hVM1lnZW9BYXJmbG1vK3JVcm9DPSIsInByb2ZpbGVUaW1lIjo2MDI1LCJ2ZXJzaW9uIjoiMy4yLjcifQ==",
+    "device_sz_fingerprint" : "4CKtF2NGLWtuOjo1JkcNYA==|KQFibL11kOmo5Gqv+ajKvzqctgGvK7yhzCA+i9dwOFSur0CAojOlVNbb2yYfj5otEW4vQzYWPI6sA6qZk3jgW5TRqHRzqcyxiuwM95TgtGZ\/ukeGFlqfHpD4oMpp1weePej78oMgofEp6w==|gQQjKvr67dnCpyJ0|07|2"
+  },
+  "ignored_errors" : [
+    0
+  ],
+  "ignore_warnings" : false
+}

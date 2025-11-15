@@ -1,0 +1,21 @@
+Host: mall.shopee.tw
+Cookie: SPC_EC=R0JyUWN0RlBiYkt5VEdjeSPcSxJZ3fBl/2QyLTO2QyKV13qdipI9tqyIeX6H3UndZ4DC4KaztJGnHsaJH6zYpeJpQiekvetMK27uC5a0Qu+djkt0svTF5uKRcl/xG8p7QiTELh7jucGQonzLc3O5yn3mts0YLXTDJ9pb7eG1DVE=; SPC_R_T_ID=Ue1Nby3DB1fVdgvN81N6toWbd1kv8rBd2Lr/4q/MJlHvEo+M95S3RHLzY9cGOQ97xPKU/0PNKP0ZyMD/yZ1pmxswQ5fMmFiwqC54xNcDKlm4OpCUQuDt7pnawnAZdY+BLrD+kUlBwkxt4i9DEyxkp/wKka/LsWjCX9HifV4UNeY=; SPC_R_T_IV=VFpJOGhJTmVteWlYTE9IVA==; SPC_SI=7QZaZAAAAABydHhrZW1leOUeoAAAAAAAajZ4YlhuU1E=; SPC_ST=.d0VmTEVXbEJzTnBONEYxNTS3KtUG2DBzT9Mws+ynCVO7wJ0Z/TT71DOXLOGgg2zGFRSKGw0W2Zio1owbSgKkncnZBmcwXNHbDxEudfXmXEYOFhVwwNZ8HGkmTjugvZTPrJrr+xO20YFisKekyDH6k0pDyeFbuVXUo3bu8Gmi7tZaueP7llgip86x2S+kb1sGBCarxdOa5zwd7S0wpv0LIw==; SPC_T_ID=Ue1Nby3DB1fVdgvN81N6toWbd1kv8rBd2Lr/4q/MJlHvEo+M95S3RHLzY9cGOQ97xPKU/0PNKP0ZyMD/yZ1pmxswQ5fMmFiwqC54xNcDKlm4OpCUQuDt7pnawnAZdY+BLrD+kUlBwkxt4i9DEyxkp/wKka/LsWjCX9HifV4UNeY=; SPC_T_IV=VFpJOGhJTmVteWlYTE9IVA==; SPC_U=304497782; SPC_AFTID=1A4CD1CD-EFFD-4BBD-8978-1F6116F0A049; SPC_CLIENTID=MjFEMzdBOUVGNDQzjacqpdthaxeoyjyd; SPC_B_SI=6wZaZAAAAABnenFOcDRWSIJToAAAAAAAcWhlY0tLaWY=; _fbp=fb.1.1683946034212.357532664; shopee_token=XpzogmnAArdQOXNNbbGrZdpijz1lQluHlWtZYuQJd6pWCjrVHqwXSWM/xrhkCO1o; shopid=304478197; userid=304497782; username=macfire_0928; shopee_app_version=30113; shopee_rn_bundle_version=5074002; shopee_rn_version=1681453324; _gcl_au=1.1.1281257536.1683945997; SPC_F=21D37A9EF4434142B9BB03E73B0EC61C; SPC_F=21D37A9EF4434142B9BB03E73B0EC61C; csrftoken=GKqUX61oJywlE7BXsea0Xupyaz2TelUr; SPC_DID=21D37A9EF4434142B9BB03E73B0EC61C; SPC_RNBV=5074002; language=zhHant; REC_T_ID=ca3ceea2-f136-11ed-9790-089204a3cd9f
+User-Agent: iOS app iPhone Shopee appver=30113 language=zh-Hant app_type=1
+X-Sap-Access-F: 2.12.5.7|111|2.7.0_8192|A720AEE8B699412089B7A5A7348141A811AA719CCD0A47|1900|100
+Referer: https://mall.shopee.tw
+x-csrftoken: GKqUX61oJywlE7BXsea0Xupyaz2TelUr
+x-shopee-language: zh-Hant
+X-Sap-Access-S: 1_H748K7F5IGmfkWpxapfgb958YzGaUFvYOishtXTgo=
+x-api-source: rn
+Content-Length: 10104
+af-ac-enc-sz-token: 4CKtF2NGLWtuOjo1JkcNYA==|KQFibL11kOmo5Gqv+ajKvzqctgGvK7yhzCA+i9dwOFSur0CAojOlVNbb2yYfj5otEW4vQzYWPI6sA6qZk3jgW5TRqHRzqcyxiuwM95TgtGZ/ukeGFlqfHpD4oMpp1weePej78oMgofEp6w==|gQQjKvr67dnCpyJ0|07|2
+Connection: keep-alive
+X-Shopee-Client-Timezone: Asia/Taipei
+if-none-match-: 55b03-cbda88f2a0495ec5a809811bf6bde4e3
+Accept-Language: zh-tw
+Accept: application/json
+Content-Type: application/json
+af-ac-enc-id: GQ/fjQaAiVptSy7S4TmdDaShm8gTGb4qnBiV94NgUmhMLH/XTcicPjCYEHT66Arm2Zl0BA==
+Accept-Encoding: br, gzip, deflate
+af-ac-enc-dat: YWNzCjAwNABhW38UdUz2EogBAAABAgEAsAAAAG3IS4QS+UDXPpJHgpfvj4bcSmF6URCduXx3yOSIxIQDdDKLpjhorTeq+y4h8A0XXe8gquHeTrltjVDCPU7HAqSuZ41xihKMDIFHnvhaF37PYztAyIpjtjKALJrU2XcbuA4gWS1DtPoWP81sf4sH+/rC/V0AMj902siGpzXdf4nZZmqYHFFV7k74rMAPzi96QrioEsCex3ZM9M8PwaVnovH8zfLP08Blb6ryo7WJ2Hyj
+X-Sap-Access-T: 1683946092

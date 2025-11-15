@@ -1,0 +1,13 @@
+"receipt_data" : {
+    "email" : "badfrog1118@gmail.com",
+    "address_data" : {
+
+    },
+    "user_carrier_info" : {
+        "user_id" : 304497782,
+        "carrier_type" : 1,
+        "barcode" : "\/CBXDKAE"
+    },
+    "receipt_type" : 1,
+    "address" : ""
+}
