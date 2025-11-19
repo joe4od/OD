@@ -19,8 +19,8 @@ SING_CONFIG = {
 
 # momo抽獎專用參數控制
 LOTTERY_CONFIG = {
-    'm_promo_no': 'U95101700002',
-    'dt_promo_no': 'D95101700001',
+    'm_promo_no': 'U95111900001',
+    'dt_promo_no': 'D95111900001',
     # 執行時間控制
     'run_lottery_now': True,  # True=直接開始, False=等到指定時間
     'hour': 9,

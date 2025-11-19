@@ -4,12 +4,22 @@ set -euo pipefail
 # install_deps.sh for code/docker
 cd /workspace || exit 1
 
-# If marker exists and not forced, skip installation to speed up container startup.
+# Force reinstall: remove marker at container start so installation always runs.
 MARKER_FILE="/workspace/.deps_installed"
-FORCE_INSTALL=${FORCE_REINSTALL:-""}
-if [ -f "${MARKER_FILE}" ] && [ -z "${FORCE_INSTALL}" ]; then
-  echo "Dependencies already installed (marker ${MARKER_FILE} exists). Skipping installation."
-  exit 0
+if [ -f "${MARKER_FILE}" ]; then
+  echo "Removing existing marker ${MARKER_FILE} to force dependency reinstall on startup."
+  rm -f "${MARKER_FILE}" || true
+fi
+
+# If marker removal is desired to be conditional, set SKIP_INSTALL=1 to skip installation entirely.
+if [ -n "${SKIP_INSTALL:-}" ]; then
+  echo "SKIP_INSTALL set; skipping dependency installation."
+  # If a command was provided, run it; otherwise drop to bash
+  if [ "$#" -gt 0 ]; then
+    exec "$@"
+  else
+    exec bash
+  fi
 fi
 
 # If we get here, perform installation (or forced reinstall)
@@ -81,3 +91,10 @@ PY
 # Mark installation complete
 touch "${MARKER_FILE}"
 echo "Dependency installation complete. Marker created at ${MARKER_FILE}."
+
+# After installation, run the provided command so container keeps running.
+if [ "$#" -gt 0 ]; then
+  exec "$@"
+else
+  exec bash
+fi

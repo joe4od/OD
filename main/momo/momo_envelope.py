@@ -128,10 +128,16 @@ def main():
 
             data_from_api2="""{
                 "enCustNo" : """ + employeeIDs[i] + """,
-                "gift_code": "SIGN_IN",
-                "dt_promo_no": "D25110100001",
-                "m_promo_no": "M25110100048"}
+                "dt_promo_no": "D95111500001",
+                "m_promo_no": "U95111500001"}
             """
+
+#             data_from_api2="""{
+#                 "enCustNo" : """ + employeeIDs[i] + """,
+#                 "gift_code": "SIGN_IN",
+#                 "dt_promo_no": "D25110100001",
+#                 "m_promo_no": "M25110100048"}
+#             """
 
 #             data_from_api2="""{
 #                 "dt_promo_no" : "D95031300001",

@@ -26,9 +26,9 @@ headers = {
     'Accept-Language': 'zh-TW,zh-Hant;q=0.9'
 }
 data = {
-    "m_promo_no": "M25110100387",
-    "dt_promo_no": "D25110100002",
-    "gift_code": "3000mo"
+    "m_promo_no": "M25110100434",
+    "dt_promo_no": "D25110100001",
+    "gift_code": "point_reward"
 }
 
 def wait_until_target():
