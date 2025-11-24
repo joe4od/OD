@@ -5,8 +5,8 @@ import json
 import os
 
 # ================== Config ==================
-WAIT_UNTIL_TIME = False  # True: wait until target time before running
-TARGET_HOUR = 23
+WAIT_UNTIL_TIME = True  # True: wait until target time before running
+TARGET_HOUR = 14
 TARGET_MINUTE = 59
 TARGET_SECOND = 59
 TARGET_MICROSECOND = 900000
@@ -14,13 +14,27 @@ MAX_REPEAT = 5
 
 # Activity ID (configurable) - change this value in Config if you need to target a different activity
 # ACTIVITY_ID = 'OR4974675'
-ACTIVITY_ID = 'OR2363069'
+# ACTIVITY_ID = 'OR2363069'
 # ACTIVITY_ID = 'OR5370606'
+
+# 11/25 15:00
+ACTIVITY_ID = 'OR9380873'
+
+# 12/01 00:00
+# ACTIVITY_ID = 'OR0383121'
+
 
 # Prize UID (configurable) - change this value in Config or set PRIZEUID env var if you prefer
 # PRIZEUID = '068f8a68c7c08f68f8a68c7c0e9ecman1'
-PRIZEUID = '0690d57ecb0af1690d57ecb0b42ecman2'
+# PRIZEUID = '0690d57ecb0af1690d57ecb0b42ecman2'
 # PRIZEUID = '068f87152c2fbd68f87152c3026ecman1'
+
+
+# 11/25 15:00
+PRIZEUID = '0690d6e4ab7434690d6e4ab7478ecman1'
+
+# 12/01 00:00
+# PRIZEUID = '0690d5b38d9074690d5b38d90d6ecman2'
 
 # Mobile and top-level Email encrypted values (configurable via env vars)
 MOBILE_ENC = 'U2FsdGVkX18oOhLxgk7+K8x7fcO/bGOwg/u/SzXh570='

@@ -5,7 +5,7 @@ from momo_envelope_config import ACCOUNTS, COMMON_HEADERS, LOTTERY_CONFIG
 
 
 # 點擊分享的起始帳號邏輯：每個帳號分享後，後第 SHARE_CLICK_START_IDX 個帳號會點擊
-SHARE_CLICK_START_IDX = 17
+SHARE_CLICK_START_IDX = 1
 
 def main():
 #     # 分享

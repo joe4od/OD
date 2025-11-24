@@ -7,8 +7,8 @@ from momo_envelope_config import ACCOUNTS, SING_CONFIG, COMMON_HEADERS
 
 # Mission ID 清單
 MISSION_IDS = [
-    "a6863200-91f1-4b8f-9401-712812fe5680",
-    "0926aef3-9873-4e6e-a71b-551593d95970",
+    "54eb8788-4efa-441c-98d3-46f5eab53348",
+    "c8a9019b-d127-47ed-a8b3-623c04758ed1",
 ]
 
 def get_utc_timestamp():
