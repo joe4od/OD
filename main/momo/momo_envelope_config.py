@@ -19,11 +19,11 @@ SING_CONFIG = {
 
 # momo抽獎專用參數控制
 LOTTERY_CONFIG = {
-    'm_promo_no': 'U95111900001',
-    'dt_promo_no': 'D95111900001',
+    'm_promo_no': 'U95120200002',
+    'dt_promo_no': 'D95120200001',
     # 執行時間控制
     'run_lottery_now': True,  # True=直接開始, False=等到指定時間
-    'hour': 9,
+    'hour': 23,
     'minute': 59,
     'second': 59,
 #     'hour': 10,
@@ -52,13 +52,13 @@ LOTTERY_CONFIG = {
 
 # PROMO活動參數與批次執行控制
 PROMO_CONFIG = {
-    'dt_promo_no': 'D95111200001',
-    'm_promo_no': 'U95111200001',
+    'm_promo_no': 'U95120200002',
+    'dt_promo_no': 'D95120200001',
     'edm_lpn': 'O7xpJdFaaP9',
     # 批次控制
     'run_batch_now': False,  # True=立即執行, False=等到指定時間
-    'hour': 16,
-    'minute': 10,
+    'hour': 15,
+    'minute': 4,
     'second': 59,
     'microsecond': 700000
 }

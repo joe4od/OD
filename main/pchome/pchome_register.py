@@ -5,7 +5,7 @@ import json
 import os
 
 # ================== Config ==================
-WAIT_UNTIL_TIME = True  # True: wait until target time before running
+WAIT_UNTIL_TIME = False  # True: wait until target time before running
 TARGET_HOUR = 14
 TARGET_MINUTE = 59
 TARGET_SECOND = 59

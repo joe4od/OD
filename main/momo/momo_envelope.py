@@ -126,23 +126,34 @@ def main():
 #                 "edm_lpn" : "O7vZ1zxW3Kd"}
 #             """
 
+#             data_from_api2="""{
+#                 "enCustNo" : """ + employeeIDs[i] + """,
+#                 "dt_promo_no": "D95120100001",
+#                 "m_promo_no": "U95120100001"}
+#             """
+
             data_from_api2="""{
                 "enCustNo" : """ + employeeIDs[i] + """,
-                "dt_promo_no": "D95111500001",
-                "m_promo_no": "U95111500001"}
+                "gift_code": "SIGN_IN",
+                "dt_promo_no": "D25120100001",
+                "m_promo_no": "M25120100255"}
             """
 
 #             data_from_api2="""{
-#                 "enCustNo" : """ + employeeIDs[i] + """,
-#                 "gift_code": "SIGN_IN",
-#                 "dt_promo_no": "D25110100001",
-#                 "m_promo_no": "M25110100048"}
+#                 "dt_promo_no" : "D95120100005",
+#                 "m_promo_no" : "U95120100001"}
 #             """
 
 #             data_from_api2="""{
-#                 "dt_promo_no" : "D95031300001",
-#                 "m_promo_no" : "U95031300001",
-#                 "gift_code" : ""}
+#                 "dt_promo_no" : "D25120100001",
+#                 "m_promo_no" : "M25120100079",
+#                 "gift_code" : "gift_1"}
+#             """
+
+#             data_from_api2="""{
+#                 "dt_promo_no" : "D25120100001",
+#                 "m_promo_no" : "M25120100169",
+#                 "gift_code" : "coupon_111"}
 #             """
 
             info = json.loads(data_from_api2)
@@ -160,7 +171,7 @@ else:
     today = datetime.datetime.now().strftime("%d")
     months = datetime.datetime.now().strftime("%m")
     years = datetime.datetime.now().strftime("%Y")
-    t4 = datetime.datetime(int(years),int(months),int(today),23,59,59,900000)     #搶折扣的時間     *****檢查*****
+    t4 = datetime.datetime(int(years),int(months),int(today),0,0,5,900000)     #搶折扣的時間     *****檢查*****
     print(t4)
 
 while datetime.datetime.now() < t4:

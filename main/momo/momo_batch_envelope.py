@@ -8,11 +8,11 @@ def main(account):
     headers = COMMON_HEADERS.copy()
     headers['Cookie'] = account['cookie']
     data = {
-        "edm_npn": None,
-        "enCustNo": account['enCustNo'],
+#         "edm_npn": None,
+#         "enCustNo": account['enCustNo'],
         "dt_promo_no": PROMO_CONFIG['dt_promo_no'],
         "m_promo_no": PROMO_CONFIG['m_promo_no'],
-        "edm_lpn": PROMO_CONFIG['edm_lpn']
+#         "edm_lpn": PROMO_CONFIG['edm_lpn']
     }
 #     data = {
 #             "enCustNo": account['enCustNo'],
