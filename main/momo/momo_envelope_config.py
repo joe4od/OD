@@ -19,47 +19,76 @@ SING_CONFIG = {
 
 # momo抽獎專用參數控制
 LOTTERY_CONFIG = {
-    'm_promo_no': 'U95120200002',
-    'dt_promo_no': 'D95120200001',
+    'm_promo_no': 'U96022200001',
+    'dt_promo_no': 'D96022200001',
     # 執行時間控制
-    'run_lottery_now': True,  # True=直接開始, False=等到指定時間
-    'hour': 23,
+    'run_lottery_now': False,  # True=直接開始, False=等到指定時間
+    'hour': 8,
     'minute': 59,
     'second': 59,
-#     'hour': 10,
+#     'hour': 9,
 #     'minute': 0,
-#     'second': 9,
+#     'second': 29,
+#     'hour': 10,
+#     'minute': 59,
+#     'second': 59,
+#     'hour': 11,
+#     'minute': 0,
+#     'second': 29,
 #     'hour': 12,
 #     'minute': 59,
 #     'second': 59,
 #     'hour': 13,
 #     'minute': 0,
-#     'second': 9,
+#     'second': 29,
+#     'hour': 14,
+#     'minute': 59,
+#     'second': 59,
+#     'hour': 15,
+#     'minute': 0,
+#     'second': 29,
 #     'hour': 16,
 #     'minute': 59,
 #     'second': 59,
 #     'hour': 17,
 #     'minute': 0,
-#     'second': 9,
+#     'second': 29,
+#     'hour': 18,
+#     'minute': 59,
+#     'second': 59,
+#     'hour': 19,
+#     'minute': 0,
+#     'second': 29,
 #     'hour': 20,
 #     'minute': 59,
 #     'second': 59,
 #     'hour': 21,
 #     'minute': 0,
-#     'second': 9,
+#     'second': 29,
     'microsecond': 900000
 }
 
 # PROMO活動參數與批次執行控制
 PROMO_CONFIG = {
-    'm_promo_no': 'U95120200002',
-    'dt_promo_no': 'D95120200001',
-    'edm_lpn': 'O7xpJdFaaP9',
+#     'm_promo_no': 'U96010100004',
+    'm_promo_no': 'U96021800001',
+    'dt_promo_no': 'D96021800001',
+#     'edm_lpn': 'O7xpJdFaaP9',
     # 批次控制
-    'run_batch_now': False,  # True=立即執行, False=等到指定時間
-    'hour': 15,
-    'minute': 4,
-    'second': 59,
+    'run_batch_now': True,  # True=立即執行, False=等到指定時間
+#     'hour': 0,
+#     'hour': 7,
+#     'hour': 9,
+#     'hour': 11,
+    'hour': 12,
+#     'hour': 14,
+#     'hour': 17,
+#     'hour': 19,
+#     'hour': 20,
+#     'hour': 21,
+#     'hour': 23,
+    'minute': 8,
+    'second': 14,
     'microsecond': 700000
 }
 

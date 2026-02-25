@@ -19,37 +19,25 @@ def main():
     if not account:
         print('找不到 0928 帳號')
         return
-    url = 'https://app.momoshop.com.tw/api/moec/regPromoMech.moec'
+    url = 'https://event.momoshop.com.tw/promoMechReg.PROMO'
     headers = {
-        'Host': 'app.momoshop.com.tw',
-        'Cookie': '_atrk_sessidx=42; _atrk_siteuid=b1dP1BvpgCShvYE8; _atrk_ssid=0P_LCYSH2Ldpcprr_3QV14; _atrk_xuid=65c662f4e335bb8ebec439e60bcbcc92de88f1f2e085f5f351aa51f29e843ec3; _edcid=MjAxNDAxNjY2NzYx; _eds=1757678317; _edvid=1a5e40c0-8d75-11f0-860a-d539069855e7; _fbp=fb.2.1757679696046.534668291965416071; _ga_BKEC67VMMG=GS2.1.s1757678317$o9$g1$t1757681308$j18$l0$h0; appier_page_isView_ERlDyPL9yO7gfOb=ff4115d42c15801bc94f2b8913a82a0bef9bd1b64c65ce818d5e18234af67330; appier_pv_counterERlDyPL9yO7gfOb=35; appier_utmz=%7B%22csr%22%3A%22cart.momoshop.com.tw%22%2C%22timestamp%22%3A1757679564%2C%22lcsr%22%3A%22cart.momoshop.com.tw%22%7D; loginRsult=1; appier_page_isView_c7279b5af7b77d1=ff4115d42c15801bc94f2b8913a82a0bef9bd1b64c65ce818d5e18234af67330; appier_pv_counterc7279b5af7b77d1=6; _tt_enable_cookie=1; _ttp=01K4Q5SFPTRQWVFSRB3NGTT355_.tt.2; ttcsid=1757679715987::00DW3Gz7MFYzLlmV1vYg.3.1757681268067; ttcsid_CU9LA0RC77UASP54JPA0=1757679715986::__ZztxbbbVgyAgmySbvf.3.1757681268273; _ga=GA1.1.1198906731.1757419454; _gid=GA1.3.1575914862.1757679507; cto_bundle=dUqb7l9jRjlqMXNUMXlwemJIS1h1JTJCMzMlMkZ2dmZBcjdkS3NRR3YxQmwweXptZE5qUVNZa25ldTFKaEV2MnIwcWpYMk91SlRMZ2o2d3BZZktLS3MyUjF2M2VlJTJCJTJGSmw1TDRNQ3Y2N21NNnZ0ck5zREprdTE0WFUwWWp0akp1RFd0d25xRFJMQ3JuemdtVWExZWd6emhpZXNuazFyM2NDNXR4TFZKbkVTMWRBMkw2ZVRLZ0phUHBDMkclMkZCU0JwZFFCNCUyQkVlYkc; _mwa_uniSessionInfo=1757679628339404578.1757679628339.4.1757680871722; _mwa_uniVisitorInfo=1757679628339293031.1757679628339.1.1757679628340; ccmedia=201401666761_/0_/00; loginUser=*%E6%B2%BB*; _mwa_uniCampaignInfo=1757679628340250274.1757679628340; wsf_web=wsf_web_b_49; ck_mlu="RjEyNzM0MTE4Ng=="; _gcl_au=1.1.1841143462.1757419454',
-        'User-Agent': '[MOMOSHOP version:2508.2.35;monet:;device:iOS;deviceID:57b7c2f920dd4d4cb2ac0164d8e82305609f234e;platform:1;userToken:OGCTFJHC283UO9AP4OR3;MOMOSHOP] showTB=0',
-        'ifa': '34EB0516-6E2A-40B6-8CD6-C7854A63D33D',
-        'MOMOMSGID': 'I2025091219583105bgv0e0K6cm',
-        'pf': '1',
-        'version': '2508.2.35',
-        'os': '18.6.2',
-        'tio': 'OGCTFJHC283UO9AP4OR3',
-        'Content-Length': '131',
-        'rc': '201401666761',
-        'startLoadTime': '1757681324.5246491',
+        'Host': 'event.momoshop.com.tw',
+        'Content-Type': 'application/json;charset=utf-8',
+        'Origin': 'https://www.momoshop.com.tw',
+        'Accept-Encoding': 'gzip, deflate, br',
+        'Cookie': 'JSESSIONID=AFF46C02794ACE806B2A5E03587C26EA; loginRsult=1; loginUser=*%E6%B2%BB*%20; _atrk_sessidx=18; _atrk_siteuid=RxPz9IF3L9MKeXO0; _atrk_ssid=1ankQzUwrZ5GIHkTwoS5a8; _atrk_xuid=65c662f4e335bb8ebec439e60bcbcc92de88f1f2e085f5f351aa51f29e843ec3; _edcid=MjAxNDAxNjY2NzYx; _eds=1769583047; _edvid=ac72c1c0-fc15-11f0-a30e-1d33911f196f; _ga_BKEC67VMMG=GS2.1.s1769583046$o1$g1$t1769583139$j29$l0$h0; appier_page_isView_ERlDyPL9yO7gfOb=ff4115d42c15801bc94f2b8913a82a0bef9bd1b64c65ce818d5e18234af67330; appier_page_isView_c7279b5af7b77d1=ff4115d42c15801bc94f2b8913a82a0bef9bd1b64c65ce818d5e18234af67330; appier_pv_counterERlDyPL9yO7gfOb=9; appier_pv_counterc7279b5af7b77d1=8; appier_utmz=%7B%7D; cto_bundle=N6qfc19qeUwydlN1TVp4WFVmN3VXNFdTYlJLWERGc3NEMFAyVXliTkVVMkJSeG5vQzJFdiUyQk5VdWs1R2hHN2hORmJwZTF3cnh6JTJCY3BLdnNOVWJ3b3V4NFMya0NoaGtoSlY2QnRraGM5SXp5ZCUyQmlicmhWTkl1emdmbHJmbm9ycG11V1olMkJFejFZOUNsOUVoSSUyQlJlR2hoMmVuV0dLR21EeVRWd3g4MHNzNlVQWFpRdDlvJTNE; ccmedia=201401666761_/1_/38; ck_encust=3201440106663761; ck_mlu="RjEyNzM0MTE4Ng=="; isEN=6b01ebcec7b881a0e955526cad29b79c93f44b85; _ga=GA1.1.1003927432.1769583046; _gid=GA1.3.566002271.1769583087; _gat_gtag_UA_22652017_2=1; mg=57b7c2f920dd4d4cb2ac0164d8e82305609f234e; LOGINSESSION=YWM4NmY5OGItNmE0My00ODQ0LWE5NzUtM2ZiODE1ZDY2YWM4; arkLogin=; WishListNumber=0; _wau=201401666761.38.1; couponNumber=49; _fbp=fb.3.1769583059736.1222759221; bid=8850be78525ddf9e7b5f362a8dda51a4; isBI=1; isTN1=1; st=b9e1ecd8914d7816da4f117c6df51c89; _gcl_au=1.1.1101150183.1769583046',
         'Connection': 'keep-alive',
-        'visitorID': '1512585764573868945',
-        'Accept-Language': 'zh-Hant-TW;q=1.0, en-TW;q=0.9, zh-Hans-TW;q=0.8',
-        'ru': '',
-        'Accept': '*/*',
-        'Content-Type': 'application/json',
-        'Accept-Encoding': 'br;q=1.0, gzip;q=0.9, deflate;q=0.8',
-        'md': '57b7c2f920dd4d4cb2ac0164d8e82305609f234e',
-        'device': '1'
+        'Accept': 'application/json, text/javascript, */*; q=0.01',
+        'User-Agent': 'Mozilla/5.0 (iPhone; CPU iPhone OS 18_6_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148[MOMOSHOP version:2601.1.0;monet:;device:iOS;deviceID:57b7c2f920dd4d4cb2ac0164d8e82305609f234e;deviceName:iPhone 16 Pro;platform:1;userToken:477V8BBKYS6RF413YBU0;msgID:I2026012814405511e5YE7klGmT;twm:0;canUseSignInWithApple:YES;canUseApplePay:YES;canUseLinePay:YES;canUseIpassMoney:YES;CANUSEJKOPAY:YES;canUseEasyWallet:NO;mowaSessionId:1769582455507326953;canTrackingAuthorized:YES;systemNotificationStatus:0;MOMOSHOP] showTB=0',
+        'Referer': 'https://www.momoshop.com.tw/',
+        'Content-Length': '79',
+        'Accept-Language': 'zh-TW,zh-Hant;q=0.9'
     }
 
     data = {
-        "custNo": "201401666761",
-        "dt_promo_no": "D25091200003",
-        "gift_code": "Gift003",
-        "isRealityGiftGoods": False,
-        "m_promo_no": "M25091200032"
+        "m_promo_no": "M26012800010",
+        "dt_promo_no": "D26012800004",
+        "gift_code": "gift_1"
     }
 
     r1 = requests.post(url, headers=headers, json=data)
@@ -66,7 +54,7 @@ else:
     today = datetime.datetime.now().strftime("%d")
     months = datetime.datetime.now().strftime("%m")
     years = datetime.datetime.now().strftime("%Y")
-    t4 = datetime.datetime(int(years),int(months),int(today),20,59,59,800000)     #搶折扣的時間     *****檢查*****
+    t4 = datetime.datetime(int(years),int(months),int(today),14,59,59,800000)     #搶折扣的時間     *****檢查*****
     print(t4)
 
 

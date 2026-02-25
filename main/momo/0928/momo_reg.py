@@ -4,30 +4,31 @@ import datetime
 import time
 
 # ====== 動態參數區 ======
-TARGET_HOUR = 19
+TARGET_HOUR = 20
 TARGET_MINUTE = 59
 TARGET_SECOND = 59
 TARGET_MICROSECOND = 90000
 REPEAT = 5  # 執行次數，可自行調整
 wait_until_time = True  # True=等到指定時間才執行，False=立即執行
 
-COOKIE = 'wsf_web=wsf_web_c_42; _eds=1750230342; _edvid=a5dd4730-4c12-11f0-aefc-0b4b8e9dcaad; _ga_BKEC67VMMG=GS2.1.s1750230342$o1$g1$t1750230372$j30$l0$h0; cto_bundle=K430Sl9qenN6R1RYOU4xR1ppYkRtb3pIQjhscE5PTDBtem14QWRDWlYwZjBYYjlqQXp6NmszdlVhYmxMZno1aDQlMkZ3cnNKa04yWU5pTnprZEhya2s0c2lMbjFvSzVHdjJYVlZTc0dVbUZ6MEJQMnVsS3F6JTJCNm4xUSUyQkJ3eEdqRWZESkdDTE9CT3ZNa3BQYkZ5RyUyQjIwYk16RG5ibWNzRDkxbUk0ZWRhR1cyNTQxbUJ1ZyUzRA; _atrk_sessidx=4; _atrk_siteuid=QYi7FnKA3n-wikBr; _atrk_ssid=hRcvETftRZvwQEVGi1LbV1; _atrk_xuid=65c662f4e335bb8ebec439e60bcbcc92de88f1f2e085f5f351aa51f29e843ec3; appier_page_isView_ERlDyPL9yO7gfOb=ff4115d42c15801bc94f2b8913a82a0bef9bd1b64c65ce818d5e18234af67330; appier_pv_counterERlDyPL9yO7gfOb=1; appier_utmz=%7B%7D; arkLogin=0; ccmedia=201401666761_/0_/00; loginRsult=1; loginUser=*%E6%B2%BB*; ttcsid_CU9LA0RC77UASP54JPA0=1750230342520::1TkjE-hMAqHDMxqttovq.1.1750230359196; _tt_enable_cookie=1; _ttp=01JY0XQ6VQQPH86ZDDJGJY9A0H_.tt.2; ttcsid=1750230342520::G70vML9y6df83ksvRC8i.1.1750230358987; _fbp=fb.3.1750230353482.396526885; appier_page_isView_c7279b5af7b77d1=ff4115d42c15801bc94f2b8913a82a0bef9bd1b64c65ce818d5e18234af67330; appier_pv_counterc7279b5af7b77d1=0; _ga=GA1.1.1609899249.1750230342; _gcl_au=1.1.1746326025.1750230342'
+COOKIE = '_tt_enable_cookie=1; _ttp=01KGF3MNSCEDNW4RS95VHWSQAT_.tt.2; ttcsid=1770036090217::_vh9ARMJmpG_SoOObksM.2.1770036090424.0; ttcsid_CU9LA0RC77UASP54JPA0=1770036090216::yeIJ-HJ392323kwIej6B.2.1770036090425.0; _edcid=MjAxNDAxNjY2NzYx; _eds=1770036086; _edvid=d2d69590-002e-11f1-8307-03ac33cc257e; _ga_BKEC67VMMG=GS2.1.s1770036086$o2$g1$t1770036089$j57$l0$h0; loginRsult=1; ccmedia=201401666761_/1_/38; loginUser=*%E6%B2%BB*; _atrk_sessidx=2; _atrk_siteuid=9FRaIexFVHt9uwtI; _atrk_ssid=AUtlAbVm_iaQ1-YmZ2b7e_; _atrk_xuid=65c662f4e335bb8ebec439e60bcbcc92de88f1f2e085f5f351aa51f29e843ec3; appier_page_isView_ERlDyPL9yO7gfOb=ff4115d42c15801bc94f2b8913a82a0bef9bd1b64c65ce818d5e18234af67330; appier_pv_counterERlDyPL9yO7gfOb=5; appier_utmz=%7B%7D; arkLogin=0; doFnzQ__=v1P5pWgw__5lr; appier_page_isView_c7279b5af7b77d1=ff4115d42c15801bc94f2b8913a82a0bef9bd1b64c65ce818d5e18234af67330; appier_pv_counterc7279b5af7b77d1=3; _ga=GA1.1.1723925498.1770033666; cto_bundle=V-JOoV9qMXMxeG0lMkZYa0FGVFlkNXRDUnI1aHhIZnBpbjRaMHpnMlZwdVlvS29Uam5ucEU1ZDZESnElMkIwekZlJTJGSUc0VDQlMkJHcXE5a0VyV1lTaGF3Y2xmSmtQaEdQVWlXd1psdDNnQmswbjZCWHBhaXV3R2FQT0pzU3olMkJvdGJjdzI0NE1BaFpLMzJLYURFUUlmeGhySE5LTjdaVEpuZ1R6aW5Ja0hjMlBqYXBudXJHR0dBJTNE; _gid=GA1.3.637815358.1770033704; _gcl_au=1.1.1651344342.1770033666; _fbp=fb.3.1770033664231.298116867; wsf_web=wsf_web_b_35'
 
 url = 'https://app.momoshop.com.tw/api/moec/regPromoMech.moec'
 
 headers = {
     'Host': 'app.momoshop.com.tw',
+    'itk': 'eyJhbGciOiJIUzUxMiJ9.eyJpYXQiOjE3NzAwMzM2NjUsImV4cCI6MTc3MDAzNzI2NX0.So7RbMWGq3BH7hS0MYrpfW_NGd0y2e-xqXgl-Wk4cNvARxqAN07BoUSU9JmxhMz2JjnEE5Qy8GYEHGTon3HQvw',
     'Cookie': COOKIE,
-    'User-Agent': '[MOMOSHOP version:2506.1.0;monet:;device:iOS;deviceID:57b7c2f920dd4d4cb2ac0164d8e82305609f234e;platform:1;userToken:FMMRD45O8OXK7G77P0JC;MOMOSHOP] showTB=0',
+    'User-Agent': '[MOMOSHOP version:2601.2.0;monet:;device:iOS;deviceID:57b7c2f920dd4d4cb2ac0164d8e82305609f234e;platform:1;userToken:OS3354R1761I5VS8FO44;MOMOSHOP] showTB=0',
     'ifa': '34EB0516-6E2A-40B6-8CD6-C7854A63D33D',
-    'MOMOMSGID': 'I202506181406337203h74XsVVl',
+    'MOMOMSGID': 'I2026020214453489HQU9g5I4Ih',
     'pf': '1',
-    'version': '2506.1.0',
-    'os': '18.3.2',
-    'tio': 'FMMRD45O8OXK7G77P0JC',
+    'version': '2601.2.0',
+    'os': '18.6.2',
+    'tio': 'OS3354R1761I5VS8FO44',
     'Content-Length': '131',
     'rc': '201401666761',
-    'startLoadTime': '1750230377.863549',
+    'startLoadTime': '1770036115.281251',
     'Connection': 'keep-alive',
     'visitorID': '1512585764573868945',
     'Accept-Language': 'zh-Hant-TW;q=1.0, en-TW;q=0.9, zh-Hans-TW;q=0.8',
@@ -39,12 +40,14 @@ headers = {
     'device': '1'
 }
 
+# 變更：data payload 使用 curl 內對應的 JSON 欄位與內容
+# body ordering: isRealityGiftGoods, dt_promo_no, gift_code, custNo, m_promo_no
 data = {
-    "dt_promo_no": "D25061800002",
-    "gift_code": "Gift002",
-    "m_promo_no": "M25061800007",
+    "isRealityGiftGoods": False,
+    "dt_promo_no": "D26020200003",
+    "gift_code": "Gift003",
     "custNo": "201401666761",
-    "isRealityGiftGoods": False
+    "m_promo_no": "M26020200034"
 }
 
 # ====== 控制是否等到指定時間才執行 ======

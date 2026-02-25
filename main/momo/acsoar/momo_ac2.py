@@ -17,7 +17,7 @@ DRY_RUN = False  # True = 只印出 headers/data，不真正送出 POST (安全�
 url = 'https://event.momoshop.com.tw/promoMechReg.PROMO'
 
 # 變更：使用 curl 指定的 Cookie（整段字串，單行）
-COOKIE = 'JSESSIONID=8EDEB595460467B1534E617AB2C822C3; _edcid=MjAxNjA4NDkxOTI0; _eds=1769754462; _edvid=aa243e40-fc5f-11f0-a8a3-e30c790d551f; _ga_BKEC67VMMG=GS2.1.s1769754461$o6$g1$t1769754481$j40$l0$h0; loginRsult=1; _atrk_sessidx=9; _atrk_siteuid=PUhxsykw-HJv8REY; _atrk_ssid=eZIESrnFUrMufuOzvOfzJ2; _atrk_xuid=8a9b70e5fcc9c61f50244e2533fe53d7cab7689f13c908a1ef822c793bd2b12a; appier_page_isView_ERlDyPL9yO7gfOb=ff4115d42c15801bc94f2b8913a82a0bef9bd1b64c65ce818d5e18234af67330; appier_page_isView_c7279b5af7b77d1=ff4115d42c15801bc94f2b8913a82a0bef9bd1b64c65ce818d5e18234af67330; appier_pv_counterERlDyPL9yO7gfOb=3; appier_pv_counterc7279b5af7b77d1=2; appier_utmz=%7B%7D; arkLogin=0; ccmedia=201608491924_/0_/00; ck_encust=3201960864918924; isEN=8ca5fad3d352459f9c41af4b8f4b345facff99e9; loginUser=*%E6%99%8F*; st=693a8b27623bb26a7e6ee7b5341de478; cto_bundle=Qg44Al90bUUzUzFvSEJsM09KQSUyQmhRaE1qS09PVFI5aFhzTlNaNXNXTjdENzA1cE9oZEdYJTJCSjBnQTFaYXNLYmh6JTJCM05aZ1lScXZ5TFAzZ013RUFRMXczeHIybGIzYzdxT0U1RVpwbWtYaGJ1bTF0eW9rVEZxQU5yTXV1SXg5akNFajk3U0tESldnM1J5eWVvdnJyMVY2ak9iSFlEM0RnTmRKbCUyRkIzUzg2TWFGNWhTTSUzRA; LOGINSESSION=Yjg3NGU3NDYtNzFlOS00ZGMzLWFjNGEtOWYwMzg3OTVjZjdh; ck_mlu="UjIyMzY0OTE4Mg=="; WishListNumber=0; _wau=201608491924.38.2; couponNumber=103; bid=586d009b4a41fb5a40a5edf6b303b644; isBI=1; isTN1=1; _tt_enable_cookie=1; _ttp=01KG6HTA5RY647NC373HRP5YZX_.tt.2; ttcsid=1769746540732::WQ_0HOqLHEzDADEFbi7S.1.1769746540937.0; ttcsid_CU9LA0RC77UASP54JPA0=1769746540730::qaawdOR-xT2cpRtQkIuZ.1.1769746540937.0; _ga=GA1.1.1344633392.1769614825; _gcl_au=1.1.708822568.1769614825'
+COOKIE = 'JSESSIONID=7B3B32BACE9225B1C17F1BB9696C81ED; _atrk_sessidx=17; _atrk_siteuid=PUhxsykw-HJv8REY; _atrk_ssid=eZIESrnFUrMufuOzvOfzJ2; _atrk_xuid=8a9b70e5fcc9c61f50244e2533fe53d7cab7689f13c908a1ef822c793bd2b12a; _edcid=MjAxNjA4NDkxOTI0; _eds=1769754462; _edvid=aa243e40-fc5f-11f0-a8a3-e30c790d551f; _ga_BKEC67VMMG=GS2.1.s1769754461$o6$g1$t1769754598$j7$l0$h0; appier_page_isView_ERlDyPL9yO7gfOb=ff4115d42c15801bc94f2b8913a82a0bef9bd1b64c65ce818d5e18234af67330; appier_pv_counterERlDyPL9yO7gfOb=7; appier_utmz=%7B%7D; loginRsult=1; cto_bundle=nydg4190bUUzUzFvSEJsM09KQSUyQmhRaE1qS091aUF6Vkd6d2Q4dG9JWTdXODVoSjVuT2F5UFI3UVlTSmdTa0pyYkVuR05pZENSVDM3ekdBR1d6eUVYeG5hamV6Y3B3eEtybGo4ZHBJYnpvdnUxS1RSalNiSHluVVNCb2YzVlRZOFY4VWNBekhmJTJCbEJQempvcnM1NmttekVmZzNIU3QyZUgwTUpUbUpKdVIzT0t4a05BJTNE; appier_page_isView_c7279b5af7b77d1=ff4115d42c15801bc94f2b8913a82a0bef9bd1b64c65ce818d5e18234af67330; appier_pv_counterc7279b5af7b77d1=4; arkLogin=0; ccmedia=201608491924_/0_/00; ck_encust=3201460844914924; isEN=be222ce7eea619a060e8448508fc20df6537b6fa; loginUser=*%E6%99%8F*; st=0467103ac8f803165288bbdf6610b409; LOGINSESSION=Yjg3NGU3NDYtNzFlOS00ZGMzLWFjNGEtOWYwMzg3OTVjZjdh; ck_mlu="UjIyMzY0OTE4Mg=="; WishListNumber=0; _wau=201608491924.38.2; couponNumber=103; bid=586d009b4a41fb5a40a5edf6b303b644; isBI=1; isTN1=1; _tt_enable_cookie=1; _ttp=01KG6HTA5RY647NC373HRP5YZX_.tt.2; ttcsid=1769746540732::WQ_0HOqLHEzDADEFbi7S.1.1769746540937.0; ttcsid_CU9LA0RC77UASP54JPA0=1769746540730::qaawdOR-xT2cpRtQkIuZ.1.1769746540937.0; _ga=GA1.1.1344633392.1769614825; _gcl_au=1.1.708822568.1769614825'
 
 # 變更：headers 對應 curl 內容（Host, Content-Type, Origin, Accept-Encoding, Cookie, Connection, Accept, User-Agent, Referer, Content-Length, Accept-Language）
 headers = {
@@ -35,10 +35,10 @@ headers = {
 }
 
 # 變更：data payload 使用 curl 內對應的 JSON 欄位與內容
-# body: {"m_promo_no":"M26012200023","dt_promo_no":"D26012200001","gift_code":"momo"}
+# body: {"m_promo_no":"M26012200023","dt_promo_no":"D26012200002","gift_code":"momo"}
 data = {
     "m_promo_no": "M26012200023",
-    "dt_promo_no": "D26012200001",
+    "dt_promo_no": "D26012200002",
     "gift_code": "momo"
 }
 

@@ -13,7 +13,7 @@ TARGET_MICROSECOND = 900000
 MAX_REPEAT = 5
 
 # Activity ID (configurable) - change this value in Config if you need to target a different activity
-# ACTIVITY_ID = 'OR4974675'
+# ACTIVITY_ID = 'R22553461'
 # ACTIVITY_ID = 'OR2363069'
 # ACTIVITY_ID = 'OR5370606'
 

@@ -4,35 +4,31 @@ import time
 
 # ====== 參數設定 ======
 WAIT_UNTIL_TIME = True  # True: 等到指定時間才執行, False: 立即執行一次
-TARGET_HOUR = 9
+TARGET_HOUR = 14
 TARGET_MINUTE = 59
 TARGET_SECOND = 59
 TARGET_MICROSECOND = 800000
 MAX_REPEAT = 5
 
-# Updated URL to match provided curl
+# Updated URL, headers, and data to match the provided curl command
 url = 'https://event.momoshop.com.tw/promoMechReg.PROMO'
-
-# Updated headers from provided curl
 headers = {
     'Host': 'event.momoshop.com.tw',
     'Content-Type': 'application/json;charset=utf-8',
     'Origin': 'https://www.momoshop.com.tw',
     'Accept-Encoding': 'gzip, deflate, br',
-    'Cookie': 'JSESSIONID=DFA18226E1E9AB51B763732D63580B7C; _atrk_sessidx=21; _atrk_siteuid=IZgcpiEmPrGo14cj; _atrk_ssid=FbfWapLLMmFi0OxsVlb-_A; _atrk_xuid=65c662f4e335bb8ebec439e60bcbcc92de88f1f2e085f5f351aa51f29e843ec3; _edcid=MjAxNDAxNjY2NzYx; _eds=1770861023; _edvid=318cfd40-04f8-11f1-919f-ad004114f71d; _ga_BKEC67VMMG=GS2.1.s1770861022$o11$g1$t1770861193$j36$l0$h0; appier_page_isView_ERlDyPL9yO7gfOb=ff4115d42c15801bc94f2b8913a82a0bef9bd1b64c65ce818d5e18234af67330; appier_pv_counterERlDyPL9yO7gfOb=9; appier_utmz=%7B%7D; loginRsult=1; appier_page_isView_c7279b5af7b77d1=ff4115d42c15801bc94f2b8913a82a0bef9bd1b64c65ce818d5e18234af67330; appier_pv_counterc7279b5af7b77d1=7; arkLogin=; cto_bundle=upIbBF9SdlozUEtlclY2SWwlMkY1TTYlMkZnNE54djFHck5MTmxGTjR2VU16U1pjZTJuaXlLYmdDREE2cCUyQnYxOVdEbzg5QW1kSkQxdktnYURBMk5QcDdldkglMkJJJTJGOVM3Sll3SzJQZGtTWFpjd3FEVXZyb2tGN2hSNlJqJTJGMDVVenVmS3poSXlHS3RiZ0hOM3JTUTdDdVpWd3ZJbDlxczhGZ0xRajE1RVpsU0FMamMwT1d1YzglM0Q; loginUser=*%E6%B2%BB*%20; ccmedia=201401666761_/0_/00; ck_encust=3201140176669761; isEN=49ea34626eb1c565626efc96ef99f0e811d4ee13; st=e5509bd09487a12ca7aa79baa4d9ee99; _tt_enable_cookie=1; _ttp=01KGYSHEVFGFKFZVFHWPM8SD0Z_.tt.2; ttcsid=1770861024682::SDG57ec7A6mhQ9OwtE3U.6.1770861033924.0; ttcsid_CU9LA0RC77UASP54JPA0=1770861024681::GFmLa2VjAarHdhsUHdNf.6.1770861033924.0; LOGINSESSION=MjcyMzQ5MDUtMzdjZi00MmZjLTlmN2MtYTFjMjA3ZmU3MDcz; ck_mlu="RjEyNzM0MTE4Ng=="; WishListNumber=0; _wau=201401666761.38.1; couponNumber=22; bid=bb70319a953d21efc5646c788300966b; isBI=1; isTN1=1; _ga=GA1.1.750524276.1770559945; _gcl_au=1.1.900907098.1770559945',
+    'Cookie': 'JSESSIONID=77BB4F2B91D811E257D8E56A31D0E79C; loginRsult=1; _atrk_sessidx=13; _atrk_siteuid=DqNB1IIUMB0cRA3L; _atrk_ssid=5MCOJLu5WtqYy67BVoJGEP; _atrk_xuid=8a9b70e5fcc9c61f50244e2533fe53d7cab7689f13c908a1ef822c793bd2b12a; _edcid=MjAxNjA4NDkxOTI0; _eds=1768064724; _edvid=8de398b0-ee46-11f0-83d3-d535f7a79516; _ga_BKEC67VMMG=GS2.1.s1768064724$o1$g1$t1768064771$j13$l0$h0; appier_page_isView_ERlDyPL9yO7gfOb=ff4115d42c15801bc94f2b8913a82a0bef9bd1b64c65ce818d5e18234af67330; appier_pv_counterERlDyPL9yO7gfOb=5; appier_utmz=%7B%7D; appier_page_isView_c7279b5af7b77d1=ff4115d42c15801bc94f2b8913a82a0bef9bd1b64c65ce818d5e18234af67330; appier_pv_counterc7279b5af7b77d1=3; cto_bundle=gn_fjV84UDZDbEFxNEJlR25DNTlLNXhyRHJ6MDRlbzR6THZnNkxIS1RDQVltek5IbjVCUE1ERkduWHlGbDhvQk52OTVLdUFBeHVmaUhmVnI4UnBFb3dPZGJqQ0lXcGp1SGtSMWpQSjFxWjI5RTJHWk5LRyUyRkxrYmJPSjBLTG1uOTAxMTVUZTRYcXc4eXQ5VnNFMXMlMkJ6aW5JUVVBdzlERnBDektTJTJCcng2NGJSTDVVJTJGUSUzRA; loginUser=*%E6%99%8F*%20; LOGINSESSION=MmNhN2RhNjYtOGQ3NC00ODFiLWI2NjItOGRhMDhjYTM4MTYx; ccmedia=201608491924_/2_/38; ck_encust=3201960834917924; ck_mlu="UjIyMzY0OTE4Mg=="; isEN=4615d9ea7f1d2d013f639a1b2fb9ba38359624f4; _tt_enable_cookie=1; _ttp=01KEMDXBGNWRCJSDGBP43YFWV0_.tt.2; ttcsid=1768064724503::QLMdfyt0BsczEjZeSbTq.1.1768064740448.0; ttcsid_CU9LA0RC77UASP54JPA0=1768064724502::JJnYAeTBHPX948gPmk_Z.1.1768064740448.1; WishListNumber=0; _fbp=fb.3.1768064736252.308201589; _wau=201608491924.38.2; couponNumber=89; arkLogin=0; bid=139d72cca2d08e1ed6771852a3a776b7; isBI=1; isTN1=1; st=375fb2b2215ea502771a40de1233052a; _ga=GA1.1.29053854.1768064724; _gcl_au=1.1.251244739.1768064724; CM=undefined; CN=undefined; TN=undefined',
     'Connection': 'keep-alive',
     'Accept': 'application/json, text/javascript, */*; q=0.01',
-    'User-Agent': 'Mozilla/5.0 (iPhone; CPU iPhone OS 18_6_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148[MOMOSHOP version:2601.2.0;monet:;device:iOS;deviceID:57b7c2f920dd4d4cb2ac0164d8e82305609f234e;deviceName:iPhone 16 Pro;platform:1;userToken:NWU22N8EN0Q0CHM08HS3;msgID:I2026021200232579kDI82kYyYV;twm:0;canUseSignInWithApple:YES;canUseApplePay:YES;canUseLinePay:YES;canUseIpassMoney:NO;CANUSEJKOPAY:YES;canUseEasyWallet:NO;mowaSessionId:1770861022195553881;canTrackingAuthorized:YES;systemNotificationStatus:0;MOMOSHOP] showTB=0',
+    'User-Agent': 'Mozilla/5.0 (iPhone; CPU iPhone OS 18_6_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148[MOMOSHOP version:2512.1.0;monet:;device:iOS;deviceID:57b7c2f920dd4d4cb2ac0164d8e82305609f234e;deviceName:iPhone 16 Pro;platform:1;userToken:QCOU43KCY8HZ2A47DS2Y;msgID:I2025121501124965wPhNRUFnOq;twm:0;canUseSignInWithApple:YES;canUseApplePay:YES;canUseLinePay:YES;CANUSEJKOPAY:YES;canUseEasyWallet:YES;mowaSessionId:1765781316968412167;canTrackingAuthorized:YES;systemNotificationStatus:0;MOMOSHOP] showTB=0',
     'Referer': 'https://www.momoshop.com.tw/',
     'Content-Length': '77',
     'Accept-Language': 'zh-TW,zh-Hant;q=0.9'
 }
-
 # Updated data body from curl
 data = {
-    "m_promo_no": "M26020100196",
-    "dt_promo_no": "D26020100001",
-    "gift_code": "3800"
+    "m_promo_no": "M26011100006",
+    "dt_promo_no": "D26011100002"
 }
 
 def wait_until_target():
