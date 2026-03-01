@@ -54,7 +54,7 @@ cookies = [
 ]
 
 # 分享第n日，若n大於等於帳號數，則需要找其他帳號點擊
-n = 2
+n = 1
 
 employeeIDs = [
     # peihsuan
@@ -104,7 +104,7 @@ employeeIDs = [
 ]
 
 # 活動編號
-pNo = "U020260223"
+pNo = "U020260301"
 
 # 主程式
 def main():

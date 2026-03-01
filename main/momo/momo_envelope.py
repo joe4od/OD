@@ -164,7 +164,7 @@ def main():
 
 # 執行時間：11,59,59,700000
 # True=等待時間到/False=直接開始跑
-run_now = True
+run_now = False
 if run_now == False:
     t4 = datetime.datetime.now()
 else:

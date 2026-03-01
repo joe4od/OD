@@ -22,7 +22,7 @@ COMMON_HEADERS = {
 MEMORY_CARD_CONFIG = {
     'm_promo_no_info': 'U96022500001',  # 活動編號
     'm_promo_no': 'U96022500002',  # 活動編號
-    'run_batch_now': False,  # True=立即執行, False=等到指定時間
+    'run_batch_now': True,  # True=立即執行, False=等到指定時間
     'hour': 10,
 #     'hour': 12,
 #     'hour': 15,

@@ -7,26 +7,9 @@ import requests
 def main(account):
     headers = COMMON_HEADERS.copy()
     headers['Cookie'] = account['cookie']
-#     data = {
-#         'member_promo': 'P02026021301',
-#         'checkType': '0'
-#     }
-#     data = {
-#         "dt_promo_no": 'D26021300002',
-#         "m_promo_no": 'M26021300002',
-#         "gift_code": 'gift1'
-#     }
-#     data = {
-#         "dt_promo_no": 'D26021300001',
-#         "m_promo_no": 'M26021300002'
-#     }
-#     data = {
-#         "dt_promo_no": 'D96021600001',
-#         "m_promo_no": 'U96021600001'
-#     }
     data = {
-        "dt_promo_no": PROMO_CONFIG['dt_promo_no'],
-        "m_promo_no": PROMO_CONFIG['m_promo_no']
+        "m_promo_no": PROMO_CONFIG['m_promo_no'],
+        "dt_promo_no": PROMO_CONFIG['dt_promo_no']
     }
 #     data = {
 #             "enCustNo": account['enCustNo'],
@@ -35,7 +18,6 @@ def main(account):
 #         }
     for _ in range(6):  # Send the request 3 times
         r1 = requests.post('https://event.momoshop.com.tw/promoMechReg.PROMO', headers=headers, json=data)
-#         r1 = requests.post('https://event.momoshop.com.tw/promoCheckNewCust.PROMO', headers=headers, json=data)
         print(f"[{account['name']}]", r1.text)
         print(datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S.%f"))
         time.sleep(1)  # Wait for 1 second before the next request
