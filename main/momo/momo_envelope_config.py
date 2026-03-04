@@ -70,13 +70,10 @@ LOTTERY_CONFIG = {
 
 # PROMO活動參數與批次執行控制
 PROMO_CONFIG = {
-    'm_promo_no': 'U96030100005',
-    'dt_promo_no': 'D96030100001',
+    'm_promo_no': 'U96030400001',
+    'dt_promo_no': 'D96030400001',
     # 批次控制
     'run_batch_now': True,  # True=立即執行, False=等到指定時間
-    # how many times to repeat per account and interval between attempts
-    'repeat': 6,
-    'interval': 1,
 #     'hour': 0,
 #     'hour': 7,
 #     'hour': 9,
@@ -129,7 +126,7 @@ ACCOUNTS = [
 # headers 範例（如需共用可放這裡）
 COMMON_HEADERS = {
     'Host': 'event.momoshop.com.tw',
-    'Content-Type': 'application/json;charset=utf-8',
+    'Content-type': 'application/json;charset=utf-8',
     'Origin': 'https://www.momoshop.com.tw',
     'Accept-Encoding': 'gzip, deflate, br',
     'Connection': 'keep-alive',

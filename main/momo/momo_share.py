@@ -54,7 +54,7 @@ cookies = [
 ]
 
 # 分享第n日，若n大於等於帳號數，則需要找其他帳號點擊
-n = 1
+n = 2
 
 employeeIDs = [
     # peihsuan

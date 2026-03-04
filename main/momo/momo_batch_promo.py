@@ -30,16 +30,17 @@ def main(account):
         'Accept-Encoding': 'gzip, deflate, br',
         'Connection': 'keep-alive',
         'Accept': 'application/json, text/javascript, */*; q=0.01',
-        'User-Agent': 'Mozilla/5.0 (iPhone; CPU iPhone OS 18_6_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148[MOMOSHOP] showTB=0',
+        'User-Agent': 'Mozilla/5.0 (iPhone; CPU iPhone OS 18_6_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148[MOMOSHOP version:2601.2.0;monet:;device:iOS;deviceID:57b7c2f920dd4d4cb2ac0164d8e82305609f234e;deviceName:iPhone 16 Pro;platform:1;userToken:KS3LRD2G05IA08MXSQY7;msgID:I2026030409211309C99zctJzeK;twm:0;canUseSignInWithApple:YES;canUseApplePay:YES;canUseLinePay:YES;canUseIpassMoney:NO;CANUSEJKOPAY:YES;canUseEasyWallet:YES;mowaSessionId:1772587273723187772;canTrackingAuthorized:YES;systemNotificationStatus:0;MOMOSHOP] showTB=0',
         'Referer': 'https://www.momoshop.com.tw/',
+        'Content-Length': '58',
         'Accept-Language': 'zh-TW,zh-Hant;q=0.9'
     })
     # account-specific cookie (keeps session per account)
     headers['Cookie'] = account.get('cookie', '')
 
     data = {
-        'm_promo_no': PROMO_CONFIG.get('m_promo_no', 'U96030100005'),
-        'dt_promo_no': PROMO_CONFIG.get('dt_promo_no', 'D96030100001')
+        'm_promo_no': PROMO_CONFIG.get('m_promo_no', 'U96030400001'),
+        'dt_promo_no': PROMO_CONFIG.get('dt_promo_no', 'D96030400001')
     }
 
     repeat = int(PROMO_CONFIG.get('repeat', 6))
@@ -80,4 +81,3 @@ if __name__ == "__main__":
         t.start()
     for t in threads:
         t.join()
-
